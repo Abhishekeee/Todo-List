@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.main {
+  min-height: 550px;
+  background: white;
+  width: 370px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 3px;
+  font-family: "Open Sans", sans-serif;
+}
+.input {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #945baa;
+  font-weight: bold;
+}
+.input::placeholder {
+  font-weight: normal;
+}
+.bi-plus-circle-fill {
+  font-size: 2.7rem;
+  position: relative;
+  top: 12px;
+}
+.bi-plus-circle-fill:hover {
+  color: rgb(17, 192, 84);
+}
+.bi-x-circle-fill{
+  font-size: 1.5rem;
+  color: #945baa;
+}
+.bi-x-circle-fill:hover {
+  color: rgb(238, 24, 88);
+}
+.background {
+  background-color: #945baa;
+}
+.color {
+  color: #945baa;
+}
+.list {
+  color: #945baa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
